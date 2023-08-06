@@ -1,0 +1,76 @@
+
+
+  body {
+    margin-left: 3%;
+    background: whitesmoke
+    
+}
+
+.logoimg {
+    width: 80px;
+    margin: 1em;
+}
+
+h1{
+    text-align: left;
+    font-size: 40px;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 2%;
+    color: white;
+    background-color:rgb(255, 255, 164);
+}
+
+
+.tarefas {
+    margin-left: 4ex;
+    margin-right: 10%;
+}
+
+::placeholder {
+text-align: center;
+font-size: 1rem;
+}
+
+ul {
+    font-size: 20px;
+}
+
+input {
+ border-radius: 10px;
+ background-color: rgb(255, 255, 164); 
+ padding: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #cacac2; 
+    border-radius: 10px;
+}
+
+
+/* Estilo para o botão */
+#addBotao {
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    background-image: url(""); /* Substitua pelo caminho correto da sua imagem */
+    background-size: contain; /* Ajusta o tamanho da imagem para caber no botão */
+    background-repeat: no-repeat; /* Impede que a imagem seja repetida */
+    background-position: center; /* Centraliza a imagem no botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer;
+  }
+  
+  #excluirImg {
+
+    width: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> lista de tarefas </title>
+    <link rel="stylesheet" href="tarefas.css">
+    <link rel="icon" href="logobloco.png" type="image/x-icon">
+    <script src="tarefas.js"></script>
+</head>
+<body>
+
+    <div class="logo">
+        <img class="logoimg" src="logobloco.png" alt="logo">
+        <h1> Lista de tarefas </h1> 
+    </div>
+
+    <div class="tarefas">
+    <input type="text" id="addTarefa" autofocus onkeydown="checkEnter(event)" >
+    <button id="addBotao" onclick="addTask()">Adicionar Tarefa</button>
+    
+    <ul id="taskList">
+      <!-- As tarefas adicionadas serão colocadas aqui -->
+    </ul>
+</div>
+ </div>
+
+    
+</body>
+</html>
